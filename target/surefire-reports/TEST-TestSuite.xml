@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestNGTest1" time="3.146" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="TestSuite" time="0.885" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -14,7 +14,6 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="TestNGTest1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Pluto 01\Documents\NetBeansProjects\uas"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -47,10 +46,11 @@
     <property name="java.class.path" value="C:\Program Files\NetBeans-16\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=TestNGTest1 -Dmaven.ext.class.path=C:\Program Files\NetBeans-16\netbeans\java\maven-nblib\netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.testng.action=true -Dmaven.ext.class.path=C:\Program Files\NetBeans-16\netbeans\java\maven-nblib\netbeans-eventspy.jar test-compile surefire:test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="netbeans.testng.action" value="true"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="19.0.2"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -63,7 +63,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TestNGTest1" name="firstTest" time="2.734"/>
-  <testcase classname="TestNGTest1" name="secondTest" time="0.245"/>
-  <testcase classname="TestNGTest1" name="thirdTest" time="0.167"/>
+  <testcase classname="TestNGTest1" name="firstTest" time="0.49"/>
+  <testcase classname="TestNGTest2" name="firstTest" time="0.395"/>
 </testsuite>

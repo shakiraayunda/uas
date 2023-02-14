@@ -47,6 +47,28 @@ public class TestNGTest1 {
         String actualResult = driver.findElement(xpath("/html/body/div/p")).getText();
         Assert.assertEquals(actualResult, expectedResult);
     }
+    
+    @Test
+    public void secondTest(){
+        driver.get("http://localhost/AUTng/index.php");
+        driver.findElement(id("username")).sendKeys("false_admin");
+        driver.findElement(id("password")).sendKeys("admin123");
+        driver.findElement(xpath("/html/body/div/form/input[3]")).click();
+        String expectedResult = "Wrong username or password!";
+        String actualResult = driver.findElement(className("notif")).getText();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+    
+    @Test
+    public void thirdTest(){
+        driver.get("http://localhost/AUTng/index.php");
+        driver.findElement(id("username")).sendKeys("admin");
+        driver.findElement(id("password")).sendKeys("false_admin123");
+        driver.findElement(xpath("/html/body/div/form/input[3]")).click();
+        String expectedResult = "Wrong username or password!";
+        String actualResult = driver.findElement(className("notif")).getText();
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 
     @AfterTest
     public void tearDown(){

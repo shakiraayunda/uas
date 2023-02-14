@@ -6,4 +6,9 @@
             <class name="TestNGTest1"/>  
         </classes>
     </test>
+    <test name="TestNGTest2">
+        <classes>
+            <class name="TestNGTest2"/>  
+        </classes>
+    </test>
 </suite>

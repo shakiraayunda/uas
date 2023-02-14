@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGTest1" title="TestNGTest1" class="method navigator-link" hash-for-method="firstTest">firstTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGTest1" title="TestNGTest1" class="method navigator-link" hash-for-method="secondTest">secondTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGTest1" title="TestNGTest1" class="method navigator-link" hash-for-method="thirdTest">thirdTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNGTest1 -->
@@ -130,6 +140,20 @@
                   <a name="firstTest">
                   </a> <!-- firstTest -->
                   <span class="method-name">firstTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondTest">
+                  </a> <!-- secondTest -->
+                  <span class="method-name">secondTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdTest">
+                  </a> <!-- thirdTest -->
+                  <span class="method-name">thirdTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'firstTest')
 data.setCell(0, 2, 'TestNGTest1')
-data.setCell(0, 3, 463);
+data.setCell(0, 3, 2732);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'secondTest')
+data.setCell(1, 2, 'TestNGTest1')
+data.setCell(1, 3, 246);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'thirdTest')
+data.setCell(2, 2, 'TestNGTest1')
+data.setCell(2, 3, 168);
 window.suiteTableData['TestNGTest1']= { tableData: data, tableDiv: 'times-div-TestNGTest1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 463 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-TestNGTest1">
               </div> <!-- times-div-TestNGTest1 -->
             </div> <!-- times-div -->
@@ -227,11 +259,19 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">firstTest</span>
-                <span class="method-start">2160 ms</span>
+                <span class="method-start">2185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondTest</span>
+                <span class="method-start">4919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thirdTest</span>
+                <span class="method-start">5165 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2626 ms</span>
+                <span class="method-start">5334 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

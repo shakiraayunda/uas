@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T10:17:25 ICT" name="TestNGTest1" finished-at="2023-02-14T10:17:28 ICT" duration-ms="2710">
+  <suite started-at="2023-02-14T11:19:21 ICT" name="TestNGTest1" finished-at="2023-02-14T11:19:27 ICT" duration-ms="5443">
     <groups>
     </groups>
-    <test started-at="2023-02-14T10:17:25 ICT" name="Command line test" finished-at="2023-02-14T10:17:28 ICT" duration-ms="2710">
+    <test started-at="2023-02-14T11:19:21 ICT" name="Command line test" finished-at="2023-02-14T11:19:27 ICT" duration-ms="5443">
       <class name="TestNGTest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGTest1@5b0abc94]" started-at="2023-02-14T10:17:25 ICT" name="setUp" finished-at="2023-02-14T10:17:27 ICT" duration-ms="2141" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGTest1@1f1c7bf6]" started-at="2023-02-14T11:19:21 ICT" name="setUp" finished-at="2023-02-14T11:19:23 ICT" duration-ms="2165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="firstTest()[pri:0, instance:TestNGTest1@5b0abc94]" started-at="2023-02-14T10:17:27 ICT" name="firstTest" finished-at="2023-02-14T10:17:28 ICT" duration-ms="463" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:TestNGTest1@1f1c7bf6]" started-at="2023-02-14T11:19:24 ICT" name="firstTest" finished-at="2023-02-14T11:19:26 ICT" duration-ms="2732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTest1@5b0abc94]" started-at="2023-02-14T10:17:28 ICT" name="tearDown" finished-at="2023-02-14T10:17:28 ICT" duration-ms="81" status="PASS">
+        <test-method signature="secondTest()[pri:0, instance:TestNGTest1@1f1c7bf6]" started-at="2023-02-14T11:19:26 ICT" name="secondTest" finished-at="2023-02-14T11:19:26 ICT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method signature="thirdTest()[pri:0, instance:TestNGTest1@1f1c7bf6]" started-at="2023-02-14T11:19:26 ICT" name="thirdTest" finished-at="2023-02-14T11:19:27 ICT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTest1@1f1c7bf6]" started-at="2023-02-14T11:19:27 ICT" name="tearDown" finished-at="2023-02-14T11:19:27 ICT" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
