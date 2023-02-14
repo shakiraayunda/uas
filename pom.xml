@@ -14,7 +14,7 @@
                     <version>2.19.1</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>src\test\java\TestSuite.xml</suiteXmlFile>
+                            <suiteXmlFile>src\test\java\TestNGTest.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <testFailureIgnore>true</testFailureIgnore>
                     </configuration> 
