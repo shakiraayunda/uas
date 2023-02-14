@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-14T12:09:19 ICT" name="Surefire suite" finished-at="2023-02-14T12:09:29 ICT" duration-ms="9353">
+  <suite started-at="2023-02-14T12:23:08 ICT" name="TestNGSuite1" finished-at="2023-02-14T12:23:13 ICT" duration-ms="5223">
     <groups>
     </groups>
-    <test started-at="2023-02-14T12:09:19 ICT" name="Surefire test" finished-at="2023-02-14T12:09:29 ICT" duration-ms="9353">
+    <test started-at="2023-02-14T12:23:08 ICT" name="Test NGTest 1" finished-at="2023-02-14T12:23:13 ICT" duration-ms="5223">
       <class name="TestNGTest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGTest1@77e4c80f]" started-at="2023-02-14T12:09:19 ICT" name="setUp" finished-at="2023-02-14T12:09:23 ICT" duration-ms="3529" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGTest1@2928854b]" started-at="2023-02-14T12:23:08 ICT" name="setUp" finished-at="2023-02-14T12:23:10 ICT" duration-ms="2092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="firstTest()[pri:0, instance:TestNGTest1@77e4c80f]" started-at="2023-02-14T12:09:23 ICT" name="firstTest" finished-at="2023-02-14T12:09:27 ICT" duration-ms="4127" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:TestNGTest1@2928854b]" started-at="2023-02-14T12:23:10 ICT" name="firstTest" finished-at="2023-02-14T12:23:12 ICT" duration-ms="1880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method signature="secondTest()[pri:0, instance:TestNGTest1@77e4c80f]" started-at="2023-02-14T12:09:27 ICT" name="secondTest" finished-at="2023-02-14T12:09:28 ICT" duration-ms="1009" status="PASS">
+        <test-method signature="secondTest()[pri:0, instance:TestNGTest1@2928854b]" started-at="2023-02-14T12:23:12 ICT" name="secondTest" finished-at="2023-02-14T12:23:12 ICT" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method signature="thirdTest()[pri:0, instance:TestNGTest1@77e4c80f]" started-at="2023-02-14T12:09:28 ICT" name="thirdTest" finished-at="2023-02-14T12:09:29 ICT" duration-ms="559" status="PASS">
+        <test-method signature="thirdTest()[pri:0, instance:TestNGTest1@2928854b]" started-at="2023-02-14T12:23:12 ICT" name="thirdTest" finished-at="2023-02-14T12:23:13 ICT" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTest1@77e4c80f]" started-at="2023-02-14T12:09:29 ICT" name="tearDown" finished-at="2023-02-14T12:09:29 ICT" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGTest1@2928854b]" started-at="2023-02-14T12:23:13 ICT" name="tearDown" finished-at="2023-02-14T12:23:13 ICT" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestNGTest1 -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test NGTest 1 -->
+  </suite> <!-- TestNGSuite1 -->
 </testng-results>
