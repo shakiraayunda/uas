@@ -39,7 +39,7 @@ public class TestNGTest1 {
 
     @Test
     public void firstTest(){
-        driver.get("http://localhost/AUTng/index.php");
+        driver.get("http://pluto18.epizy.com");
         driver.findElement(id("username")).sendKeys("admin");
         driver.findElement(id("password")).sendKeys("admin123");
         driver.findElement(xpath("/html/body/div/form/input[3]")).click();
@@ -50,7 +50,7 @@ public class TestNGTest1 {
     
     @Test
     public void secondTest(){
-        driver.get("http://localhost/AUTng/index.php");
+        driver.get("http://pluto18.epizy.com");
         driver.findElement(id("username")).sendKeys("false_admin");
         driver.findElement(id("password")).sendKeys("admin123");
         driver.findElement(xpath("/html/body/div/form/input[3]")).click();
@@ -61,7 +61,7 @@ public class TestNGTest1 {
     
     @Test
     public void thirdTest(){
-        driver.get("http://localhost/AUTng/index.php");
+        driver.get("http://pluto18.epizy.com");
         driver.findElement(id("username")).sendKeys("admin");
         driver.findElement(id("password")).sendKeys("false_admin123");
         driver.findElement(xpath("/html/body/div/form/input[3]")).click();

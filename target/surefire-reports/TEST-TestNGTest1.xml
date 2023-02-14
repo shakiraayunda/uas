@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestNGTest1" time="3.146" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestNGTest1" time="9.726" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -21,8 +21,7 @@
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\PLUTO0~1\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="Cp1252"/>
@@ -63,7 +62,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TestNGTest1" name="firstTest" time="2.734"/>
-  <testcase classname="TestNGTest1" name="secondTest" time="0.245"/>
-  <testcase classname="TestNGTest1" name="thirdTest" time="0.167"/>
+  <testcase name="firstTest" classname="TestNGTest1" time="4.128"/>
+  <testcase name="secondTest" classname="TestNGTest1" time="1.008"/>
+  <testcase name="thirdTest" classname="TestNGTest1" time="0.559"/>
 </testsuite>
