@@ -43,8 +43,8 @@ public class TestNGTest1 {
         driver.findElement(id("username")).sendKeys("admin");
         driver.findElement(id("password")).sendKeys("admin123");
         driver.findElement(xpath("/html/body/div/form/input[3]")).click();
-        String expectedResult = "Home Page Welcome back, admin!";
-        String actualResult = driver.findElement(className("content")).getText();
+        String expectedResult = "Welcome back, admin!";
+        String actualResult = driver.findElement(xpath("/html/body/div/p")).getText();
         Assert.assertEquals(actualResult, expectedResult);
     }
 
